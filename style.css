@@ -1,0 +1,1054 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Red+Hat+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+body{
+    margin: 0;
+    
+}
+.header{
+    background:url("./assets/068657f8a3df2700565fd792353d998b.jpeg");
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.78);
+}
+
+.topContent{
+    color:white;
+}
+.topContent_container{
+    position:absolute;
+    top: 200px;
+    right: 360px;   
+}
+.topContent_container > h1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: white;
+   }
+.nav_left > img{
+    flex:0.4;
+    text-align: center;
+    width: 200px;
+    position:absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+.nav_right > a >button{
+display: fex;
+flex: 0.6;
+position:absolute;
+top: 35px;
+right: 30px;
+font-size: 18px;
+cursor: pointer;
+background-color: white;
+border-radius: 52px;
+padding: 5px 10px;
+border: none;
+width: 130px;
+height: 40px;
+color:#2C48B3;
+font-family: 'DM Sans', sans-serif;
+font-weight: 600;
+letter-spacing: 1px;
+
+
+}
+
+ button > img{
+    width: 24px;
+    color:tomato;
+}
+.middleContent{
+    background-color: white;
+    width: 1140px;
+    height: 861px;
+   
+
+}
+
+.middleContent >h1{
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size:25px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+
+
+
+/* cardMale start */
+.cardMale{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 155px;
+    height: 118px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+   
+
+
+}
+
+.iconMale{
+ 
+border-radius: 100px;
+width: 50px;
+height: 50px;
+top: 840px;
+margin-left: 50px;
+margin-top: 20px;
+
+
+background: #C4C4C4;
+}
+
+.male{
+    font-family:'Red Hat Display', sans-serif;
+    color:#989898;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* cardMale end  */
+
+/*  CardFemale start */
+.cardFemale{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 155px;
+    height: 118px;
+    margin-left: 200px;
+    margin-top: -122px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+
+.iconFemale{
+ 
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    top: 840px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+    background: #C4C4C4;
+    }
+    
+    .female{
+        font-family:'Red Hat Display', sans-serif;
+        color:#989898;
+        text-align: center;
+        font-weight: 500;
+        margin-left: -10px;
+    }
+
+/* cardFemale end  */
+    
+/* cardNeutral start */
+
+.cardNeutral{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 155px;
+    height: 118px;
+    margin-left: 200px;
+    margin-top: -122px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+
+.iconNeutral{
+ 
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    top: 840px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+    background: #C4C4C4;
+    }
+    
+    .neutral{
+        font-family:'Red Hat Display', sans-serif;
+        color:#989898;
+        text-align: center;
+        font-weight: 500;
+        margin-left: -10px;
+      
+    }
+/* cardNeutral end */
+
+
+/* cardCouples start */
+
+.cardCouples{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 155px;
+    height: 118px;
+    margin-left: 200px;
+    margin-top: -122px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+
+.iconCouples{
+ 
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    top: 840px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+    background: #C4C4C4;
+    }
+    
+    .couples{
+        font-family:'Red Hat Display', sans-serif;
+        color:#989898;
+        text-align: center;
+        font-weight: 500;
+        margin-left: -10px;
+        
+    }
+
+/* cardCouples end */
+
+.card{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+/* container3 */
+
+.container3{
+   width: 1150px;
+    height: 680px;
+   
+   
+}
+.container3_1{
+    margin-top: 50px;
+}
+.container3 >h3{
+    margin-top: 100px;
+    margin-left: 162px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+}
+
+/* D */
+
+.D{
+    width:400px;
+    height:300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+   
+}
+.Dermotologist{
+     margin-left: 137px;  
+     font-family:'Red Hat Display', sans-serif;
+     font-weight:bold;
+     ;
+    }
+
+.Dermotologist_P{
+    font-family:'Red Hat Display', sans-serif;
+    line-height: 21.7px; 
+    letter-spacing: 1px;  
+    font-size:15px;
+    text-align: justify;
+    margin-left: 140px;
+}
+.h{
+    width: 65%;
+    height: 5px;
+    background-color: #3BA49F;
+    border:0 none;
+    margin-left: 140px;
+    
+}
+
+/* A */
+
+.A{
+    width:400px;
+    height:300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    margin-left: 400px;
+    margin-top: -596px;
+   
+}
+
+/* D_1 */
+
+.D_1{
+    width:400px;
+    height:300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    margin-top: 50px;
+   
+}
+
+/* D_1 */
+
+/* Andrologist start */
+.An{
+    width:400px;
+    height:300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    margin-top: -3px;
+    margin-left: 400px;
+   
+}
+/* Andrologist end */
+
+
+/* container3 end */
+
+/* container4  start*/
+
+.container4{
+    width: 1348px;
+    height: 450px;
+    background:-webkit-linear-gradient(right,#000000
+    ,#0e0e0ef5);
+    margin-left: -260px;
+    position: absolute;
+    
+
+}
+
+.h2{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    letter-spacing:4px;
+}
+
+.container4_1{
+    /* background-color: white; */
+    width: 350px;
+    height:300px;
+    margin-left: 70px;
+    margin-top: 100px;
+    color:white;
+}
+.container4_1 >h4{
+    font-family:  'Red Hat Display', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.container4_1 >p{
+    text-align: justify;
+    font-family:  'Red Hat Display', sans-serif;
+}
+
+/* container4_1 end*/
+
+/* container4_2 start*/
+.container4_2{
+    /* background-color: white; */
+    width: 350px;
+    height:300px;
+    margin-left: 430px;
+    margin-top: -190px;
+    color:white;
+}
+.container4_2 >h4{
+    font-family:  'Red Hat Display', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.container4_2 >p{
+    text-align: justify;
+    font-family:  'Red Hat Display', sans-serif;
+}
+
+
+/* container4_2  end*/
+
+/* container4  end */
+
+
+/* container5 Start */
+
+.container5{
+    width: 1348px;
+    height: 400px;
+    position: absolute;
+}
+
+.container5 >h2{
+    font-family:  'Red Hat Display', sans-serif;
+    text-align: center;
+    letter-spacing: 2px; 
+}
+
+/* container5_1 Start */
+
+.container5_1{
+    width: 400px;
+    height: 300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    margin-left: 50px;
+
+}
+.h5{
+    text-align: center;
+    font-family:  'Red Hat Display', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.p{
+    font-family:  'Red Hat Display', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.p_1{
+    font-family:  'Red Hat Display', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2px;
+}
+/* container5_1 End */
+
+
+/* container5_2 Start */
+
+.container5_2{
+    width: 400px;
+    height: 300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    margin-left: 450px;
+    margin-top: -270px;
+
+}
+
+/* container5_2 End */
+
+/* container5_3 Start */
+
+.container5_3{
+    width: 400px;
+    height: 300px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    margin-left: 450px;
+    margin-top: -270px;
+
+}
+/* container5_3 End */
+/* container5 End */
+
+/****************************** container6 Start*********************************** */
+.container6{
+
+    width: 1348px;
+    height: 1055px;
+    position: absolute;
+  
+  
+   
+}
+
+.container6 >h2{
+    font-family:  'Red Hat Display', sans-serif;
+    text-align: center;
+    letter-spacing: 2px; 
+    margin-left:50px ;
+}
+.p_3{
+    text-align: center;
+    font-family:  'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.p_4{
+    text-align: center;
+    font-family:  'Red Hat Display', sans-serif;
+    font-weight:bold;
+    line-height: 2px;
+    font-size: 13px;
+}
+
+
+/* container6_1 Start */
+
+.container6_1{
+ width: 250px;
+ height: 340px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+margin-left: 30px;
+border-radius: 35px;
+margin-top: 100px;
+margin-left: 150px;
+
+}
+.p_5{
+
+    text-align: justify;
+    font-family:  'Red Hat Display', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    margin-top: -20px;
+    color:#363636;
+   
+    
+   
+}
+
+h6{
+    text-align: center;
+    font-family:  'Red Hat Display', sans-serif;
+    line-height: 2px;
+    margin-top: -12px;
+    color: #000000;
+
+    
+   
+}
+
+/* container6-1 End  */
+
+
+/* container6_2 Start */
+
+.container6_2{
+    width: 250px;
+    height: 340px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 30px;
+   border-radius: 35px;
+   margin-top: -340px;
+   margin-left: 420px;
+}
+   
+/* container6_3 End */
+
+/* container6_4 start */
+
+.container6_4{
+    width: 250px;
+    height: 340px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 30px;
+   border-radius: 35px;
+   margin-top:  80px;
+   margin-left: 150px;
+}
+/* container6_4 End */
+
+/*********************************container6 End**********************************/
+
+
+/*********************************container7 SATRT**********************************/
+
+.container7{
+
+    width: 1348px;
+    height: 700px;
+    position: absolute;
+  
+  
+}
+
+.container7 >h2{
+      margin-top: 100px;
+      text-align: center;
+      margin-left: 50px;
+      font-family:  'Red Hat Display', sans-serif;
+      letter-spacing: 2px;
+    
+}
+
+/* container7_1 START*/
+
+.container7_1{
+
+    width:420px;
+    height: 400px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    margin-left: 20px;
+    margin-top: 45px;
+    padding-left: 10px;
+
+    
+}
+
+/* conatiner7_1 END*/
+
+
+
+
+
+.text{
+
+    position:absolute;
+    top: 258px;
+    text-align: justify;
+    color: #000000;
+    padding: 10px;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-top: 4px;
+    font-family:  'Red Hat Display', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 21px;
+    
+    
+   
+}
+
+/* test image START */
+
+.test{
+    margin-top: 280px;
+    margin-left: 138px;
+    
+    
+}
+
+/* test image END  */
+
+
+/* container7_2 start */
+
+.container7_2{
+
+    width:420px;
+    height: 400px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    margin-left: 450px;
+    margin-top: -383px;
+    padding-left: 10px;
+
+    
+}
+
+/* container7_2 end */
+
+
+
+
+/*********************************container7 END**********************************/
+
+
+/*********************************container8 SATRT**********************************/
+
+.container8{
+    background:-webkit-linear-gradient(right,#000000,#505050
+);
+    width: 1348px;
+    height: 700px;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+
+.container8 >h2{
+
+      margin-top: 50px;
+      text-align: center;
+      margin-left: 50px;
+      font-family:  'Red Hat Display', sans-serif;
+      letter-spacing: 2px;
+      color: white;
+      
+
+}
+
+/* container8_1 Start */
+
+.container8_1{
+
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 1px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+
+
+.h3{
+    color: #828282;
+    font-family:  'Red Hat Display', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    
+}
+
+.h5_1{
+    color: #828282;
+    font-family:  'Red Hat Display', sans-serif;
+    margin-left: 10px;
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.p_6{
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    text-align: justify !important;
+    font-weight: 500;
+    
+
+}
+
+.btn{
+    background-color: #FF6A6A;
+    border: none;
+    height: 30px;
+    width: 115px;
+    margin-left: 130px;
+    color: #FFFFFF;
+    font-family:  'Red Hat Display', sans-serif;
+    border-radius: 3px;
+    padding: 10px , 10px;
+  
+
+
+}
+
+
+/* container8_1 End */
+
+/* container8_0 Start */
+
+.container8_0{
+
+    width: 420px;
+    height: 450px;
+    
+    margin-left: 700px;
+    border-radius: 1px;
+    margin-top: 70px;
+    position: absolute;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* container8_0 End */
+
+
+
+/* container 8_2 Start */
+
+.container8_2{
+ 
+    background-color:#FFFFFF;
+    width:420px;
+    height:140px;
+}
+
+/* container 8_2 End  */
+
+
+
+/* container 8_3 Start */
+
+.container8_3{
+    background-color:#FFFFFF;
+    width:420px;
+    height:140px;
+   margin-top: 15px;
+    
+
+}
+
+/* container 8_3 End  */
+
+/* container8_4 Start */
+
+.container8_4{
+
+   background-color: #FFFFFF;
+    width:420px;
+    height:140px;
+   margin-top: 15px;
+
+}
+
+.text_1{
+    margin-left: 300px;
+    margin-top: -150px;
+    color: #828282;
+    font-family:  'Red Hat Display', sans-serif;
+    margin-left: 200px;
+    letter-spacing: 1px;
+}
+
+.text_2{
+    font-family:  'Red Hat Display', sans-serif;
+    text-align: justify;
+    margin-left: 200px;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 500;
+    
+} 
+/* container8_4 End */
+
+
+/*********************************container8 END**********************************/
+
+/*********************************container9 Start**********************************/
+
+.container9{
+    width: 1348px;
+    height: 370x;
+    background:-webkit-linear-gradient(right,#000000,#505050);
+    margin-top: 670px;
+    position: absolute;
+}
+
+/* logo start*/
+
+.logo{
+    margin-top: 80px;
+    margin-left: 70px;
+
+}
+
+
+
+/* logo End */
+
+/* logo Start */
+
+.logo_1{
+    margin-left: 120px;
+    margin-top: -53px;
+}
+
+
+/* logo End */
+
+/* social_icon start*/
+
+.social_icon{
+   width: 215px;
+   height: 50px;
+   /* background-color: #FFFFFF; */
+   margin-left: 50px;
+   margin-top: 50px;
+   position: absolute;
+}
+/* social_icon end */
+
+/* twitter start */
+
+.twitter{
+
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+
+}
+
+/* twiiter end */
+
+
+
+/* facebook start */
+
+.facebook{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: -30px;
+
+}
+
+/* facebook end */
+
+/* insta start */
+
+.insta{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+
+}
+/* insta end */
+
+/* Linkedin start */
+
+.linkedin{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 140px;
+    margin-top: -30px;
+
+}
+
+/* Linkedin End */
+
+
+/* stack start */
+.stack{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-left: 180px;
+    margin-top: -30px;
+
+}
+
+/* stack End  */
+
+
+/* list start */
+
+.list >ul >li{
+    color:#FFFFFF;
+    list-style-type: none;
+    margin-left: 400px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 29px;
+    
+}
+.list{
+    margin-top: -45px;
+}
+
+/* list end  */
+
+/* list_1 start*/
+
+.list_1 >ul >li{
+    color:#FFFFFF;
+    list-style-type: none;
+    
+    font-family: 'DM Sans', sans-serif;
+    line-height: 29px;
+    
+}
+.list_1{
+    margin-top: -136px;
+    margin-left: 620px;
+
+}
+
+
+/* list_1 end */
+
+
+/* list_2 start */
+
+.list_2{
+    margin-top: -126px;
+    margin-left: 1000px;
+    line-height: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.list2_p1{
+    color:  #F44848;
+    
+}
+.list2_p2{
+    color: white;
+}
+/* list_2 end */
+
+/* list_3 start */
+
+.list_3{
+    margin-top: 20px;
+    margin-left: 1000px;
+    line-height: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.list3_p1{
+    color:  #F44848;
+    
+}
+.list3_p2{
+    color: white;
+}
+.line{
+    margin-top: 100px;
+    background-color: #C4C4C4;
+    height:0px;
+    
+}
+
+.rights{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 14px;
+}
+
+/*********************************container9 END**********************************/
+
+ 
